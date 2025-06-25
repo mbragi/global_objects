@@ -21,3 +21,6 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`server is running on port ${PORT}`);
 });
+
+
+//TODO:  IMPROVE API TO GET A REQUEST ON /something and dynamically response using url
